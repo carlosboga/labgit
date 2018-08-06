@@ -1,0 +1,12 @@
+hostname R1
+!
+!
+Interface fa0/0
+Description ICE
+ip address 10.10,10,1
+!
+!
+Interface fa0/0
+Description LAN	
+ip address 10.20.20.1
+!
